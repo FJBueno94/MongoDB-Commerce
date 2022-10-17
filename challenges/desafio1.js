@@ -1,1 +1,1 @@
-db.getCollection("produtos").find().count()
+db.getCollection("produtos").find().count();
