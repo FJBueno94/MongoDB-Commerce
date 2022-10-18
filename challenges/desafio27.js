@@ -1,0 +1,1 @@
+db.getCollection("produtos").find({ nome: { $regex: /mc/i } }).count();
