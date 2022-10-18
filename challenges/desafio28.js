@@ -1,0 +1,1 @@
+db.getCollection("produtos").find({ ingredientes: { $size: 4 } }).count();
